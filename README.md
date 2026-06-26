@@ -98,11 +98,11 @@ The dashboard is powered by two tables sourced from a **PostgreSQL** database (`
 ---
 
 ## 📸 Screenshots
+<img width="1442" height="803" alt="image" src="https://github.com/user-attachments/assets/37fcd7e9-ef27-4061-8779-2d329b98cc69" />
 
-> *(Add screenshots of your dashboard pages here)*
->
-> `Page 1 - Transaction Analysis`  
-> `Page 2 - Customer Analysis`
+<img width="1453" height="814" alt="image" src="https://github.com/user-attachments/assets/4f884416-5bde-42fb-baab-12ce6c522764" />
+
+
 
 ---
 
