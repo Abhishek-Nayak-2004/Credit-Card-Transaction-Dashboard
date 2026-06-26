@@ -1,4 +1,4 @@
-# 💳 Credit Card Financial Dashboard — Power BI
+# Credit Card Financial Dashboard — Power BI
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -8,7 +8,7 @@ An interactive, two-page Power BI dashboard that provides a comprehensive analys
 
 ---
 
-## 📊 Dashboard Overview
+## Dashboard Overview
 
 The report consists of **2 pages**, each targeting a different analytical lens:
 
@@ -35,7 +35,7 @@ Focuses on customer demographics to understand who is driving revenue.
 
 ---
 
-## 🗃️ Data Model
+## Data Model
 
 The dashboard is powered by two tables sourced from a **PostgreSQL** database (`public` schema):
 
@@ -68,7 +68,7 @@ The dashboard is powered by two tables sourced from a **PostgreSQL** database (`
 
 ---
 
-## ⚙️ Technical Stack
+## Technical Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -77,36 +77,12 @@ The dashboard is powered by two tables sourced from a **PostgreSQL** database (`
 | **DAX** | Custom KPI measures (Revenue, Interest, Transaction Count, CSS) |
 | **Power Query (M)** | Data transformation and loading |
 
----
-
-## 🚀 How to Run
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Abhishek-Nayak-2004/<repo-name>.git
-   ```
-
-2. **Open the file** — Open `Dashboard.pbix` in **Power BI Desktop** (free download from Microsoft).
-
-3. **Connect to your data source**
-   - Go to **Home → Transform Data → Data Source Settings**
-   - Update the PostgreSQL server and database credentials to match your environment
-   - Alternatively, import the provided CSV/SQL files to recreate the tables locally
-
-4. **Refresh the data** — Click **Refresh** on the Home ribbon to load the latest data.
-
----
-
 ## 📸 Screenshots
 <img width="1442" height="803" alt="image" src="https://github.com/user-attachments/assets/37fcd7e9-ef27-4061-8779-2d329b98cc69" />
 
 <img width="1453" height="814" alt="image" src="https://github.com/user-attachments/assets/4f884416-5bde-42fb-baab-12ce6c522764" />
 
-
-
----
-
-## 💡 Key Insights Surfaced
+## Key Insights Surfaced
 
 - Identified **top revenue-generating card categories** and expenditure types
 - Tracked **quarterly revenue trends** alongside transaction volume fluctuations
@@ -116,7 +92,7 @@ The dashboard is powered by two tables sourced from a **PostgreSQL** database (`
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - Data modeling with relational tables in Power BI
 - Writing DAX measures for KPIs (SUM, aggregations)
@@ -124,26 +100,7 @@ The dashboard is powered by two tables sourced from a **PostgreSQL** database (`
 - Connecting Power BI to a PostgreSQL backend
 - Business storytelling through data visualization
 
----
-
-## 📁 Repository Structure
-
-```
-📦 credit-card-dashboard
- ┣ 📊 Dashboard.pbix       # Power BI report file
- ┣ 📄 README.md            # Project documentation
- ┗ 📂 data/                # (Optional) Sample data files / SQL scripts
-```
-
----
-
-## 👤 Author
+## Author
 
 **Abhishek Nayak**  
 GitHub: [@Abhishek-Nayak-2004](https://github.com/Abhishek-Nayak-2004)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
